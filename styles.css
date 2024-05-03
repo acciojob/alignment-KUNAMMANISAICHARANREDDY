@@ -1,1 +1,19 @@
 /*  your css code here. If applicable */
+#t21{
+	column-span:6;
+}
+#head{
+	text-align:center;
+}
+#table-1{
+	width:100%;
+}
+#table-2{
+	width:100%;
+}
+.s{
+	text-align:center;
+}
+.t{
+	text-align:right;
+}
