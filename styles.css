@@ -2,8 +2,14 @@
 #t21{
 	column-span:6;
 }
+#colspan{
+	column-span:6;
+}
 #head{
 	text-align:center;
+}
+td {
+  border: 1px solid black;
 }
 #table-1{
 	width:100%;
@@ -20,8 +26,9 @@
 	border:1px solid black;
 }
 .middle{
-	
-	
+	display:flex;
+	justify-content:center;
+	align-items:center;
 }
 .t31{
 	background-color:green;
@@ -30,11 +37,14 @@
 	background-color:blue;
 }
 
-.border{
+#table-1{
 	border:1px solid rgb(0,0,0);
 }
-.colspan{
-	column-span:6;
+#table-2{
+	border:1px solid rgb(0,0,0);
+}
+#table-3{
+	border:1px solid rgb(0,0,0);
 }
 .center{
 	text-align:center;
